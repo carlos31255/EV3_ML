@@ -1,0 +1,21 @@
+{
+  "source_train_sha256": "bcc2484aee0e799c419316f36117dd11fbe3ba6467122f7f2e59dcd3629be668",
+  "seed": 42,
+  "n_train_interno": 57423,
+  "n_validacion": 14283,
+  "threshold_p80_train_original": 52.0,
+  "n_features": 148,
+  "n_generos": 114,
+  "filas_validacion_genero_desconocido": 0,
+  "test_final_leido": false,
+  "cv": null,
+  "modelos": [
+    "DummyClassifier",
+    "LogisticRegression",
+    "DecisionTreeClassifier",
+    "GaussianNB",
+    "RandomForestClassifier",
+    "ExtraTreesClassifier",
+    "HistGradientBoostingClassifier"
+  ]
+}
