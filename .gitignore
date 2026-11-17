@@ -1,19 +1,12 @@
-# Rúbrica EP3 (documento local, no se sube al repositorio)
-EP3_Instrucciones y Pauta PRESENTACIÓN_Estudiante.pdf
-
-# Python
 __pycache__/
 *.py[cod]
-*.pyo
-.env
 .venv/
-env/
-venv/
-
-# Jupyter
 .ipynb_checkpoints/
-
-# OS
-.DS_Store
-Thumbs.db
-
+data/raw/*.csv
+data/raw/train/*.csv
+data/raw/test/*.csv
+data/raw/split_manifest.json
+data/processed/**/*.csv
+data/processed/*.csv
+data/processed/*.json
+output/modelos/*.joblib
