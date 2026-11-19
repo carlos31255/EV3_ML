@@ -1,8 +1,8 @@
 # Segunda etapa: LazyPredict
 
-Copiar `notebooks/02_LazyPredict.ipynb`, `src/benchmark.py` y `requirements_lazypredict.txt` sobre la raíz del proyecto actual, conservando 01_EDA y sus correcciones.
+Copiar `notebooks/02_LazyPredict.ipynb` y `src/benchmark.py` sobre la raíz del proyecto actual, conservando 01_EDA y sus correcciones.
 
-Instalar desde la raíz: `python -m pip install -r requirements_lazypredict.txt`.
+Instalar desde la raíz: `python -m pip install -r requirements.txt` (incluye lazypredict 0.4.0). Con las versiones fijadas, el benchmark es determinista: HistGradientBoosting da lift@10% 3,41. Con scikit-learn 1.9.1 da 3,45, por lo que conviene no actualizar librerías.
 Ejecutar 01_EDA si no existen sus CSV y metadatos; después ejecutar 02_LazyPredict de principio a fin.
 
 El módulo solo lee raw_train y metadatos del EDA. No necesita abrir X_test, y_test ni raw_test. Genera tablas 10–16 y gráfico 08. No modifica el split ni entrena el modelo final.
